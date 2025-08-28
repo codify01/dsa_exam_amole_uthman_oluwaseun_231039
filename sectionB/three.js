@@ -2,8 +2,6 @@
 
 
 const generateFactorial = (n) => {
-
-    let n = document.getElementById('factorialInput').value;
     
     if (!n) {
         throw new Error("Please provide a number")
@@ -19,4 +17,6 @@ const generateFactorial = (n) => {
     return n
 }
 
+console.log(generateFactorial(3))
 console.log(generateFactorial(4))
+console.log(generateFactorial(5))

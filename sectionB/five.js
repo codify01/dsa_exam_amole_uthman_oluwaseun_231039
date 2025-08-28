@@ -11,3 +11,4 @@ const isPalindrome = (word) => {
 }
 
 console.log(isPalindrome("seun"))
+console.log(isPalindrome("mum"))

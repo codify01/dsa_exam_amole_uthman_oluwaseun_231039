@@ -35,4 +35,9 @@ const evaluateGrades = (grade) => {
     }
 }
 
-console.log(evaluateGrades(6.6))
+console.log(evaluateGrades(4.6))
+console.log(evaluateGrades(3.6))
+console.log(evaluateGrades(2.6))
+console.log(evaluateGrades(1.6))
+console.log(evaluateGrades(1.4))
+console.log(evaluateGrades(6))
